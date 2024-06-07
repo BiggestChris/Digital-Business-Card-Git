@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #23252C;
+    color: #FFFFFF;
+    font-family: Inter, sans-serif;
+}
+
+.app {
+    border-radius: 10px;
+    // border: solid 1px blue;
+    width: 317px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+p {
+    font-size: 10.25px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.component {
+    background-color: #1A1B21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    // border: solid 1px red;
+}
+
+.info--image {
+    width: 317px;
+    height: 317px;
+    object-fit: cover;
+    object-position: 50% 55%; 
+}
+
+.text-block {
+    align-items: left;
+    width: 250px;
+}
+
+.info--name{
+    margin-bottom: 5px;
+}
+
+.info--title {
+    color: #F3BF99;
+    font-size: 12.8px;
+    margin: 0;
+}
+
+.info--website {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.info--button {
+    margin-bottom: 20px;
+    display: block;
+    width: 250px;
+    border-radius: 6px;
+    height: 35px;
+}
+
+.info--email {
+    padding-left: 10px;
+}
+
+.icon--footer {
+    display: flex;
+    gap: 25px;
+    margin: 15px auto;
+}
+
+.icon--footer > i {
+    font-size: 25px;
+}
+
+#footer {
+    background-color: #161619;
+}
+
+.interests {
+    padding-bottom: 20px;
+}
